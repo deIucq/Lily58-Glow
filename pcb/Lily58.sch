@@ -714,12 +714,10 @@ RESET
 NoConn ~ 3850 2100
 Text GLabel 2550 2100 0    50   Input ~ 0
 LED
-NoConn ~ 3850 2600
 Text GLabel 2550 2600 0    50   Input ~ 0
 SCL
 Text GLabel 2550 2500 0    50   Input ~ 0
 SDA
-NoConn ~ 3850 2500
 Text GLabel 2550 2800 0    50   Input ~ 0
 row0
 Text GLabel 2550 2900 0    50   Input ~ 0
@@ -1238,17 +1236,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 2400 3850 2400
 $Comp
-L Lily58-rescue:CONN_01X04-Lily58-cache P4
-U 1 1 5BE5032C
-P 2450 6200
-F 0 "P4" H 2450 5950 50  0000 C CNN
-F 1 "OLED" H 2450 6450 50  0000 C CNN
-F 2 "Lily58-footprint:MY_SIL-4" H 2450 6200 50  0001 C CNN
-F 3 "" H 2450 6200 50  0000 C CNN
-	1    2450 6200
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR03
 U 1 1 5BE50789
 P 3050 6050
@@ -1270,12 +1257,6 @@ F 3 "" H 3050 6150 50  0001 C CNN
 	1    3050 6150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2650 6050 2800 6050
-Wire Wire Line
-	2650 6150 2750 6150
-Wire Wire Line
-	2650 6250 2700 6250
 Text GLabel 3050 6250 2    50   Input ~ 0
 SCL
 Text GLabel 3050 6350 2    50   Input ~ 0
@@ -1413,7 +1394,6 @@ Wire Wire Line
 Connection ~ 2700 6250
 Wire Wire Line
 	2650 6350 2850 6350
-Connection ~ 2650 6350
 Wire Wire Line
 	2850 6500 2800 6500
 Wire Wire Line
@@ -2269,7 +2249,7 @@ U 1 1 61A657C6
 P 1850 3150
 F 0 "D31" V 1896 3070 50  0000 R CNN
 F 1 "S-562T" V 1805 3070 50  0000 R CNN
-F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1850 3150 50  0001 C CNN
+F 2 "Lily58-footprint:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1850 3150 50  0001 C CNN
 F 3 "~" H 1850 3150 50  0001 C CNN
 	1    1850 3150
 	0    -1   -1   0   
@@ -2285,9 +2265,41 @@ U 1 1 61A2AD08
 P 1850 2850
 F 0 "LED1" V 1889 2732 50  0000 R CNN
 F 1 "SMLE13BC8TT86" V 1798 2732 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 2850 50  0001 C CNN
+F 2 "Lily58-footprint:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 2850 50  0001 C CNN
 F 3 "~" H 1850 2850 50  0001 C CNN
 	1    1850 2850
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:Conn_01x06_Female J3
+U 1 1 6192B632
+P 2550 6250
+F 0 "J3" H 2578 6226 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 2578 6135 50  0000 L CNN
+F 2 "Lily58-footprint:OLED_4Pin" H 2550 6250 50  0001 C CNN
+F 3 "~" H 2550 6250 50  0001 C CNN
+	1    2550 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 6050 2800 6050
+Wire Wire Line
+	2350 6150 2750 6150
+Wire Wire Line
+	2350 6250 2700 6250
+Wire Wire Line
+	2650 6350 2350 6350
+Connection ~ 2650 6350
+Wire Wire Line
+	3850 2500 4050 2500
+Wire Wire Line
+	3850 2600 4050 2600
+Text GLabel 4050 2500 2    50   Input ~ 0
+A3
+Text GLabel 4050 2600 2    50   Input ~ 0
+A2
+Text GLabel 2350 6450 0    50   Input ~ 0
+A3
+Text GLabel 2350 6550 0    50   Input ~ 0
+A2
 $EndSCHEMATC
