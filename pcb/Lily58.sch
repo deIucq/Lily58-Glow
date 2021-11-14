@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Lily58-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -699,7 +698,6 @@ Text GLabel 4050 2800 2    50   Input ~ 0
 col1
 Text GLabel 4050 2700 2    50   Input ~ 0
 col0
-NoConn ~ 2550 2700
 $Comp
 L Lily58-rescue:VCC-Lily58-cache #PWR04
 U 1 1 5B736B57
@@ -1213,47 +1211,6 @@ DATA
 Text GLabel 4150 4550 2    50   Input ~ 0
 DATA
 Connection ~ 3550 4550
-$Comp
-L Lily58-rescue:CONN_01X06-Lily58-cache P3
-U 1 1 5BB0EA73
-P 2400 5250
-F 0 "P3" H 2400 5600 50  0000 C CNN
-F 1 "ICSP" H 2400 4900 50  0000 C CNN
-F 2 "Lily58-footprint:ICSP" H 2400 5250 50  0001 C CNN
-F 3 "" H 2400 5250 50  0000 C CNN
-	1    2400 5250
-	-1   0    0    -1  
-$EndComp
-Text Label 2600 5000 0    50   ~ 0
-MISO
-Text Label 2600 5200 0    50   ~ 0
-SCK
-Text Label 2600 5300 0    50   ~ 0
-MOSI
-Text Label 2600 5400 0    50   ~ 0
-RST
-$Comp
-L power:VCC #PWR0103
-U 1 1 5BB0F35D
-P 2600 5100
-F 0 "#PWR0103" H 2600 4950 50  0001 C CNN
-F 1 "VCC" V 2617 5228 50  0000 L CNN
-F 2 "" H 2600 5100 50  0001 C CNN
-F 3 "" H 2600 5100 50  0001 C CNN
-	1    2600 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5BB0F4C7
-P 2600 5500
-F 0 "#PWR0104" H 2600 5250 50  0001 C CNN
-F 1 "GND" H 2605 5327 50  0000 C CNN
-F 2 "" H 2600 5500 50  0001 C CNN
-F 3 "" H 2600 5500 50  0001 C CNN
-	1    2600 5500
-	1    0    0    -1  
-$EndComp
 Text Label 3850 3000 0    50   ~ 0
 MISO
 Text Label 3850 3100 0    50   ~ 0
@@ -2295,4 +2252,42 @@ Wire Wire Line
 	1925 8200 1925 7550
 Wire Wire Line
 	1925 7550 5500 7550
+$Comp
+L power:GND #PWR0103
+U 1 1 61A382E2
+P 1850 3300
+F 0 "#PWR0103" H 1850 3050 50  0001 C CNN
+F 1 "GND" H 1855 3127 50  0000 C CNN
+F 2 "" H 1850 3300 50  0001 C CNN
+F 3 "" H 1850 3300 50  0001 C CNN
+	1    1850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 61A657C6
+P 1850 3150
+F 0 "D31" V 1896 3070 50  0000 R CNN
+F 1 "S-562T" V 1805 3070 50  0000 R CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1850 3150 50  0001 C CNN
+F 3 "~" H 1850 3150 50  0001 C CNN
+	1    1850 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 2700 1850 2750
+Wire Wire Line
+	1850 2700 2550 2700
+Connection ~ 1850 2700
+$Comp
+L Device:LED LED1
+U 1 1 61A2AD08
+P 1850 2850
+F 0 "LED1" V 1889 2732 50  0000 R CNN
+F 1 "SMLE13BC8TT86" V 1798 2732 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 2850 50  0001 C CNN
+F 3 "~" H 1850 2850 50  0001 C CNN
+	1    1850 2850
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

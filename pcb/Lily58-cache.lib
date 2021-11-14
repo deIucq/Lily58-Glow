@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Device_D
+#
+DEF Device_D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_Jumper
 #
 DEF Device_Jumper JP 0 30 Y N 1 F N
@@ -8,6 +30,12 @@ F0 "JP" 0 150 50 H V C CNN
 F1 "Device_Jumper" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
 DRAW
 A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
 C -100 0 35 0 1 0 N
@@ -24,11 +52,40 @@ F0 "JP" 0 80 50 H V C CNN
 F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
 DRAW
 C -40 0 20 0 1 0 N
 C 40 0 20 0 1 0 N
 X 1 1 -100 0 40 R 50 50 0 1 P
 X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -82,36 +139,6 @@ X P1 1 -200 150 150 R 50 50 1 1 P
 X P2 2 -200 50 150 R 50 50 1 1 P
 X P3 3 -200 -50 150 R 50 50 1 1 P
 X P4 4 -200 -150 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Lily58-rescue_CONN_01X06-Lily58-cache
-#
-DEF Lily58-rescue_CONN_01X06-Lily58-cache P 0 40 Y N 1 F N
-F0 "P" 0 350 50 H V C CNN
-F1 "Lily58-rescue_CONN_01X06-Lily58-cache" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X06
- Pin_Header_Angled_1X06
- Socket_Strip_Straight_1X06
- Socket_Strip_Angled_1X06
-$ENDFPLIST
-DRAW
-S -50 -245 10 -255 0 1 0 N
-S -50 -145 10 -155 0 1 0 N
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 255 10 245 0 1 0 N
-S -50 300 50 -300 0 1 0 N
-X P1 1 -200 250 150 R 50 50 1 1 P
-X P2 2 -200 150 150 R 50 50 1 1 P
-X P3 3 -200 50 150 R 50 50 1 1 P
-X P4 4 -200 -50 150 R 50 50 1 1 P
-X P5 5 -200 -150 150 R 50 50 1 1 P
-X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -368,8 +395,9 @@ F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
