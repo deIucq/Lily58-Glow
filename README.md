@@ -2,7 +2,7 @@
 Lily58 is 6×4+4keys column-staggered split keyboard.
 ![Lily in the nighttime](https://i.imgur.com/uvap4Nt.jpg)
 
-![PCB view](https://i.imgur.com/vjNbyMs.png)
+![PCB view](lily58_pcb.png)
 
 # Parts
 
