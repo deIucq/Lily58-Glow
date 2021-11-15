@@ -3,12 +3,12 @@ Lily58 is 6×4+4keys column-staggered split keyboard.
 
 Lily58からforkされた[Lily58-glow](https://github.com/qtkb/Lily58-Glow)に以下の変更を加えました。
 
-- RGBLEDのpad配置をSK6812mini用からSK6812mini-e用に変更(6つのunderglow用LEDはそのまま)
+- RGBLEDのpad配置をSK6812mini-e用に変更(6つのunderglow用LEDは削除)
 - BLE Micro Proのインジケータ用にLEDを追加
 
 I modified Lily58-glow that is forked from lily58 as below.
 
-- Change RGB LED pad from for SK6812mini to SK6812mini-e. (6 underglow LEDs are still for SK6812mini)
+- Change RGB LED pad from for SK6812mini-e. (I deleted 6 underglow LEDs)
 - Add  LED for BLE Micro Pro's indicator.
 
 このプロジェクトは開発中です。PCBの設計にミスがある可能性があります。
