@@ -1,4 +1,4 @@
-# Lily58 - Glow for BLE Pro Micro
+# Lily58 - Glow for BLE Micro Pro
 Lily58 is 6×4+4keys column-staggered split keyboard.
 
 Lily58からforkされた[Lily58-glow](https://github.com/qtkb/Lily58-Glow)に以下の変更を加えました。
