@@ -14,7 +14,7 @@ I modified Lily58-glow that is forked from lily58 as below.
 このプロジェクトは開発中です。PCBの設計にミスがある可能性があります。
 This project is still in progress. There may be some mistakes in PCB design.
 
-![PCB view](https://i.imgur.com/GmXsVsY.png)
+![PCB view](https://i.imgur.com/lkmf0na.png)
 
 # Parts
 
@@ -28,7 +28,6 @@ This project is still in progress. There may be some mistakes in PCB design.
 | Key Switch (Choc)                             | 58       | [遊舎工房](https://shop.yushakobo.jp/products/pg1350?_pos=33&_sid=57b4f8c74&_ss=r) |
 | Keycap(choc, transparent)                     | 58       | [Aliexpress](https://ja.aliexpress.com/item/32979973961.html?spm=a2g0o.cart.0.0.4c8c3c00uyiPfq&mp=1) |
 | SK6812-MINI-E                                 | 58       | [Aliexpress](https://ja.aliexpress.com/item/4000475685852.html?spm=a2g0o.productlist.0.0.7419755awSVy7F&algo_pvid=37805785-d316-40cc-8d8d-518c90b69743&algo_expid=37805785-d316-40cc-8d8d-518c90b69743-0&btsid=0ab6f8ad15936253073377411eecdc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603) |
-| SK6812-MINI                                   | 6        | [秋月](https://akizukidenshi.com/catalog/g/gI-15477/)        |
 | OLED                                          | 2        | [Aliexpress](https://ja.aliexpress.com/item/4001028384269.html?spm=a2g0o.cart.0.0.4c8c3c00uyiPfq&mp=1) |
 | Diode 1N4148                                  | 58       | [秋月](https://akizukidenshi.com/catalog/g/gI-07084/)        |
 | Tact switch                                   | 2        | [秋月](https://akizukidenshi.com/catalog/g/gP-08074/)        |
