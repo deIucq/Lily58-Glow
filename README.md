@@ -1,20 +1,22 @@
-# Lily58 - Glow for BLE Micro Pro
+# Lily58 - χ
 Lily58 is 6×4+4keys column-staggered split keyboard.
 
 Lily58からforkされた[Lily58-glow](https://github.com/qtkb/Lily58-Glow)に以下の変更を加えました。
 
 - RGBLEDのpad配置をSK6812mini-e用に変更(6つのunderglow用LEDは削除)
 - BLE Micro Proのインジケータ用にLEDを追加
+- ピンヘッダを追加してモジュールの開発を意識した設計に変更
 
 I modified Lily58-glow that is forked from lily58 as below.
 
 - Change RGB LED pad from for SK6812mini-e. (I deleted 6 underglow LEDs)
 - Add  LED for BLE Micro Pro's indicator.
+- Add new Pinheader for additional modules.
 
 このプロジェクトは開発中です。PCBの設計にミスがある可能性があります。
 This project is still in progress. There may be some mistakes in PCB design.
 
-![PCB view](https://i.imgur.com/lkmf0na.png)
+![PCB view](https://i.imgur.com/mA2S16P.png)
 
 # Parts
 
@@ -38,4 +40,5 @@ This project is still in progress. There may be some mistakes in PCB design.
 | M2 screw 5mm                                  | 8        | [遊舎工房]()                                                 |
 | M2 screw 3mm                                  | 20       | [遊舎工房]()                                                 |
 | Urethane cushion                              | 2        | [遊舎工房](https://shop.yushakobo.jp/collections/all-keyboard-parts/products/a0800ur-01-6) |
+| Pin header(1×4 or 2×4)                        | 2        |                                                              |
 
