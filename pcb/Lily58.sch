@@ -786,41 +786,6 @@ F 3 "" H 2700 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lily58-rescue:LED-Lily58-cache J1
-U 1 1 5B74AE32
-P 4000 3600
-F 0 "J1" H 4000 3800 50  0000 C CNN
-F 1 "LED" H 4000 3400 50  0000 C CNN
-F 2 "Lily58-footprint:StripLED" H 4000 3600 50  0001 C CNN
-F 3 "" H 4000 3600 50  0001 C CNN
-	1    4000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:VCC-Lily58-cache #PWR07
-U 1 1 5B74B06A
-P 4200 3500
-F 0 "#PWR07" H 4200 3350 50  0001 C CNN
-F 1 "VCC" H 4217 3673 50  0000 C CNN
-F 2 "" H 4200 3500 50  0001 C CNN
-F 3 "" H 4200 3500 50  0001 C CNN
-	1    4200 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:GND-Lily58-cache #PWR08
-U 1 1 5B74B15A
-P 4200 3700
-F 0 "#PWR08" H 4200 3450 50  0001 C CNN
-F 1 "GND" H 4205 3527 50  0000 C CNN
-F 2 "" H 4200 3700 50  0001 C CNN
-F 3 "" H 4200 3700 50  0001 C CNN
-	1    4200 3700
-	1    0    0    -1  
-$EndComp
-Text GLabel 4200 3600 2    50   Input ~ 0
-LED
-$Comp
 L Lily58-rescue:GND-Lily58-cache #PWR010
 U 1 1 5B74C10F
 P 2350 3700
