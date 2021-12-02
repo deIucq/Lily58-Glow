@@ -2249,34 +2249,28 @@ Wire Wire Line
 Connection ~ 2650 7300
 Wire Wire Line
 	2650 7300 2850 7300
-Wire Wire Line
-	7700 10500 7900 10500
-Wire Wire Line
-	6900 10500 7100 10500
 $Comp
 L LED:SK6812MINI L33
 U 1 1 61A4CA14
-P 8200 10500
-F 0 "L33" H 8225 10750 50  0000 L CNN
-F 1 "SK6812mini" H 7725 10250 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 8250 10200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8300 10125 50  0001 L TNN
-	1    8200 10500
+P 5400 10500
+F 0 "L33" H 5425 10750 50  0000 L CNN
+F 1 "SK6812mini" H 4925 10250 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 5450 10200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5500 10125 50  0001 L TNN
+	1    5400 10500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:SK6812MINI L32
 U 1 1 61A4CA1E
-P 7400 10500
-F 0 "L32" H 7425 10750 50  0000 L CNN
-F 1 "SK6812mini" H 6925 10250 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 7450 10200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7500 10125 50  0001 L TNN
-	1    7400 10500
+P 6000 10500
+F 0 "L32" H 6025 10750 50  0000 L CNN
+F 1 "SK6812mini" H 5525 10250 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 6050 10200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6100 10125 50  0001 L TNN
+	1    6000 10500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 10500 6300 10500
 $Comp
 L LED:SK6812MINI L31
 U 1 1 61A4CA29
@@ -2291,94 +2285,52 @@ $EndComp
 $Comp
 L LED:SK6812MINI L30
 U 1 1 61A4CA33
-P 5800 10500
-F 0 "L30" H 5825 10750 50  0000 L CNN
-F 1 "SK6812mini" H 5325 10250 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 5850 10200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5900 10125 50  0001 L TNN
-	1    5800 10500
+P 7200 10500
+F 0 "L30" H 7225 10750 50  0000 L CNN
+F 1 "SK6812mini" H 6725 10250 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 7250 10200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7300 10125 50  0001 L TNN
+	1    7200 10500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:SK6812MINI L34
 U 1 1 61A4CA3D
-P 9000 10500
-F 0 "L34" H 9025 10750 50  0000 L CNN
-F 1 "SK6812mini" H 8525 10250 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 9050 10200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9100 10125 50  0001 L TNN
-	1    9000 10500
+P 4800 10500
+F 0 "L34" H 4825 10750 50  0000 L CNN
+F 1 "SK6812mini" H 4325 10250 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 4850 10200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4900 10125 50  0001 L TNN
+	1    4800 10500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8500 10500 8700 10500
 $Comp
 L LED:SK6812MINI L35
 U 1 1 61A7E919
-P 9800 10500
-F 0 "L35" H 9825 10750 50  0000 L CNN
-F 1 "SK6812mini" H 9325 10250 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 9850 10200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9900 10125 50  0001 L TNN
-	1    9800 10500
+P 4200 10500
+F 0 "L35" H 4225 10750 50  0000 L CNN
+F 1 "SK6812mini" H 3725 10250 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 4250 10200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4300 10125 50  0001 L TNN
+	1    4200 10500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 10500 9500 10500
-Wire Wire Line
-	5800 10200 6600 10200
-Connection ~ 6600 10200
-Wire Wire Line
-	6600 10200 7400 10200
-Connection ~ 7400 10200
-Wire Wire Line
-	7400 10200 8200 10200
-Connection ~ 8200 10200
-Wire Wire Line
-	8200 10200 9000 10200
-Connection ~ 9000 10200
-Wire Wire Line
-	9000 10200 9800 10200
-Wire Wire Line
 	9000 9350 9800 9350
 Connection ~ 9000 9350
-Connection ~ 9800 10200
-Wire Wire Line
-	9800 10800 9000 10800
-Connection ~ 5800 10800
-Connection ~ 6600 10800
-Wire Wire Line
-	6600 10800 5800 10800
-Connection ~ 7400 10800
-Wire Wire Line
-	7400 10800 6600 10800
-Connection ~ 8200 10800
-Wire Wire Line
-	8200 10800 7400 10800
-Connection ~ 9000 10800
-Wire Wire Line
-	9000 10800 8200 10800
 Wire Wire Line
 	5300 9950 5800 9950
 $Comp
 L LED:SK6812MINI L36
 U 1 1 61AA0F7C
-P 5000 10500
-F 0 "L36" H 5025 10750 50  0000 L CNN
-F 1 "SK6812mini" H 4525 10250 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 5050 10200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5100 10125 50  0001 L TNN
-	1    5000 10500
+P 7800 10500
+F 0 "L36" H 7825 10750 50  0000 L CNN
+F 1 "SK6812mini" H 7325 10250 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 7850 10200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7900 10125 50  0001 L TNN
+	1    7800 10500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 10500 5500 10500
-Wire Wire Line
-	5000 10800 5800 10800
-Wire Wire Line
-	5000 10200 5800 10200
-Connection ~ 5800 10200
-Connection ~ 5000 10800
 Connection ~ 5300 9950
 Wire Wire Line
 	9800 9350 9800 10200
@@ -2387,30 +2339,69 @@ Wire Wire Line
 $Comp
 L LED:SK6812MINI L37
 U 1 1 61A982D1
-P 4200 10500
-F 0 "L37" H 4225 10750 50  0000 L CNN
-F 1 "SK6812mini" H 3725 10250 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 4250 10200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4300 10125 50  0001 L TNN
-	1    4200 10500
+P 8400 10500
+F 0 "L37" H 8425 10750 50  0000 L CNN
+F 1 "SK6812mini" H 7925 10250 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 8450 10200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8500 10125 50  0001 L TNN
+	1    8400 10500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 10800 5000 10800
-Wire Wire Line
-	4200 10800 3500 10800
 Wire Wire Line
 	3500 10800 3500 9950
 Wire Wire Line
 	3500 9950 5300 9950
-Connection ~ 4200 10800
 Wire Wire Line
 	3900 10100 3900 10500
 Wire Wire Line
 	3900 10100 9300 10100
 Wire Wire Line
-	4500 10500 4700 10500
+	4200 10200 4800 10200
 Wire Wire Line
-	4200 10200 5000 10200
-Connection ~ 5000 10200
+	3500 10800 4200 10800
+Connection ~ 4200 10800
+Wire Wire Line
+	4200 10800 4800 10800
+Connection ~ 4800 10200
+Wire Wire Line
+	4800 10200 5400 10200
+Connection ~ 4800 10800
+Wire Wire Line
+	4800 10800 5400 10800
+Connection ~ 5400 10200
+Wire Wire Line
+	5400 10200 6000 10200
+Connection ~ 5400 10800
+Wire Wire Line
+	5400 10800 6000 10800
+Connection ~ 6000 10200
+Wire Wire Line
+	6000 10200 6600 10200
+Connection ~ 6000 10800
+Wire Wire Line
+	6000 10800 6600 10800
+Connection ~ 6600 10200
+Wire Wire Line
+	6600 10200 7200 10200
+Connection ~ 6600 10800
+Wire Wire Line
+	6600 10800 7200 10800
+Connection ~ 7200 10200
+Wire Wire Line
+	7200 10200 7800 10200
+Connection ~ 7200 10800
+Wire Wire Line
+	7200 10800 7800 10800
+Connection ~ 7800 10200
+Wire Wire Line
+	7800 10200 8400 10200
+Connection ~ 7800 10800
+Wire Wire Line
+	7800 10800 8400 10800
+Connection ~ 8400 10200
+Wire Wire Line
+	8400 10200 9800 10200
+Connection ~ 8400 10800
+Wire Wire Line
+	8400 10800 9800 10800
 $EndSCHEMATC
