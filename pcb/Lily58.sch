@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Lily58-rescue:ProMicro_2-Lily58-cache U1
-U 1 1 5B722440
-P 3200 2650
-F 0 "U1" H 3200 3350 60  0000 C CNN
-F 1 "ProMicro" H 3200 1950 60  0000 C CNN
-F 2 "Lily58-footprint:ProMicro_rev2" H 3300 1600 60  0001 C CNN
-F 3 "" H 3300 1600 60  0000 C CNN
-	1    3200 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Lily58-rescue:SW_PUSH-Lily58-cache SW25
 U 1 1 5B722503
 P 5800 4850
@@ -1101,16 +1090,15 @@ Wire Wire Line
 	2550 2300 2550 2400
 Wire Wire Line
 	2550 2400 2300 2400
-Connection ~ 2550 2400
 $Comp
 L power:GND #PWR02
 U 1 1 5B8F3218
-P 3250 4600
-F 0 "#PWR02" H 3250 4350 50  0001 C CNN
-F 1 "GND" H 3255 4427 50  0000 C CNN
-F 2 "" H 3250 4600 50  0001 C CNN
-F 3 "" H 3250 4600 50  0001 C CNN
-	1    3250 4600
+P 3250 4800
+F 0 "#PWR02" H 3250 4550 50  0001 C CNN
+F 1 "GND" H 3255 4627 50  0000 C CNN
+F 2 "" H 3250 4800 50  0001 C CNN
+F 3 "" H 3250 4800 50  0001 C CNN
+	1    3250 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1124,56 +1112,10 @@ F 3 "" H 3250 4150 50  0001 C CNN
 	1    3250 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 4350 3150 4350
-Wire Wire Line
-	3150 4450 3250 4450
-$Comp
-L Lily58-rescue:i2c_pin-Lily58-cache P1
-U 1 1 5B8F6780
-P 3550 4000
-F 0 "P1" H 3550 4100 50  0000 C CNN
-F 1 "i2c_pin" V 3650 4000 50  0000 C CNN
-F 2 "Lily58-footprint:1pin_conn" H 3550 4000 50  0001 C CNN
-F 3 "" H 3550 4000 50  0001 C CNN
-	1    3550 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Lily58-rescue:i2c_pin-Lily58-cache P2
-U 1 1 5B8F6980
-P 3550 4750
-F 0 "P2" H 3550 4650 50  0000 C CNN
-F 1 "i2c_pin" V 3650 4750 50  0000 C CNN
-F 2 "Lily58-footprint:1pin_conn" H 3550 4750 50  0001 C CNN
-F 3 "" H 3550 4750 50  0001 C CNN
-	1    3550 4750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3150 4550 3550 4550
-Wire Wire Line
-	3150 4200 3550 4200
-Wire Wire Line
-	3250 4150 3250 4350
-Wire Wire Line
-	3250 4450 3250 4600
-$Comp
-L Device:Jumper W1
-U 1 1 5B900157
-P 3850 4550
-F 0 "W1" H 3850 4500 50  0000 C CNN
-F 1 "jumper" H 3850 4700 50  0000 C CNN
-F 2 "Lily58-footprint:jumper_data" H 3850 4550 50  0001 C CNN
-F 3 "" H 3850 4550 50  0000 C CNN
-	1    3850 4550
-	-1   0    0    1   
-$EndComp
 Text GLabel 2550 2200 0    50   Input ~ 0
 DATA
-Text GLabel 4150 4550 2    50   Input ~ 0
+Text GLabel 3550 4550 2    50   Input ~ 0
 DATA
-Connection ~ 3550 4550
 Text Label 3850 3000 0    50   ~ 0
 MISO
 Text Label 3850 3100 0    50   ~ 0
@@ -2054,8 +1996,6 @@ F 3 "~" H 1850 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1850 2700 1850 2750
-Wire Wire Line
-	1850 2700 2550 2700
 Connection ~ 1850 2700
 $Comp
 L Device:LED LED1
@@ -2404,4 +2344,33 @@ Wire Wire Line
 Connection ~ 8400 10800
 Wire Wire Line
 	8400 10800 9800 10800
+Wire Wire Line
+	3150 4200 3250 4200
+Wire Wire Line
+	3250 4200 3250 4150
+Wire Wire Line
+	3150 4350 3250 4350
+Wire Wire Line
+	3250 4350 3250 4450
+Wire Wire Line
+	3150 4450 3250 4450
+Connection ~ 3250 4450
+Wire Wire Line
+	3250 4450 3250 4800
+Wire Wire Line
+	3550 4550 3150 4550
+Connection ~ 2550 2400
+Wire Wire Line
+	1850 2700 2550 2700
+$Comp
+L Lily58-rescue:ProMicro_2-Lily58-cache U1
+U 1 1 5B722440
+P 3200 2650
+F 0 "U1" H 3200 3350 60  0000 C CNN
+F 1 "ProMicro" H 3200 1950 60  0000 C CNN
+F 2 "Lily58-footprint:ProMicro_rev2" H 3300 1600 60  0001 C CNN
+F 3 "" H 3300 1600 60  0000 C CNN
+	1    3200 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
