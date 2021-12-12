@@ -729,48 +729,48 @@ row4
 $Comp
 L Lily58-rescue:VCC-Lily58-cache #PWR05
 U 1 1 5B739B47
-P 4400 4800
-F 0 "#PWR05" H 4400 4650 50  0001 C CNN
-F 1 "VCC" H 4400 4950 50  0000 C CNN
-F 2 "" H 4400 4800 50  0001 C CNN
-F 3 "" H 4400 4800 50  0001 C CNN
-	1    4400 4800
+P 2300 5000
+F 0 "#PWR05" H 2300 4850 50  0001 C CNN
+F 1 "VCC" H 2300 5150 50  0000 C CNN
+F 2 "" H 2300 5000 50  0001 C CNN
+F 3 "" H 2300 5000 50  0001 C CNN
+	1    2300 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lily58-rescue:VCC-Lily58-cache #PWR06
 U 1 1 5B739CDC
-P 4550 4800
-F 0 "#PWR06" H 4550 4650 50  0001 C CNN
-F 1 "VCC" H 4550 4950 50  0000 C CNN
-F 2 "" H 4550 4800 50  0001 C CNN
-F 3 "" H 4550 4800 50  0001 C CNN
-	1    4550 4800
+P 2450 5000
+F 0 "#PWR06" H 2450 4850 50  0001 C CNN
+F 1 "VCC" H 2450 5150 50  0000 C CNN
+F 2 "" H 2450 5000 50  0001 C CNN
+F 3 "" H 2450 5000 50  0001 C CNN
+	1    2450 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lily58-rescue:R-Lily58-cache R1
 U 1 1 5B739F4A
-P 4400 4950
-F 0 "R1" V 4500 4950 50  0000 C BNN
-F 1 "R" V 4400 4950 50  0000 C CNN
-F 2 "Lily58-footprint:RESISTOR_mini" V 4330 4950 50  0001 C CNN
-F 3 "" H 4400 4950 50  0001 C CNN
-	1    4400 4950
+P 2300 5150
+F 0 "R1" V 2400 5150 50  0000 C BNN
+F 1 "R" V 2300 5150 50  0000 C CNN
+F 2 "Lily58-footprint:RESISTOR_mini" V 2230 5150 50  0001 C CNN
+F 3 "" H 2300 5150 50  0001 C CNN
+	1    2300 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lily58-rescue:R-Lily58-cache R2
 U 1 1 5B73A034
-P 4550 4950
-F 0 "R2" V 4650 4950 50  0000 C BNN
-F 1 "R" V 4550 4950 50  0000 C CNN
-F 2 "Lily58-footprint:RESISTOR_mini" V 4480 4950 50  0001 C CNN
-F 3 "" H 4550 4950 50  0001 C CNN
-	1    4550 4950
+P 2450 5150
+F 0 "R2" V 2550 5150 50  0000 C BNN
+F 1 "R" V 2450 5150 50  0000 C CNN
+F 2 "Lily58-footprint:RESISTOR_mini" V 2380 5150 50  0001 C CNN
+F 3 "" H 2450 5150 50  0001 C CNN
+	1    2450 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4400 5100 3    50   Input ~ 0
+Text GLabel 2300 5300 3    50   Input ~ 0
 SDA
 $Comp
 L Lily58-rescue:MJ-4PP-9-Lily58-cache J2
@@ -862,62 +862,7 @@ F 3 "" H 7450 6150 60  0000 C CNN
 	1    7450 6150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH4
-U 1 1 5B74D1C0
-P 8450 6150
-F 0 "TH4" H 8450 6150 60  0000 C CNN
-F 1 "HOLE" H 8450 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2_TH" H 8450 6150 60  0001 C CNN
-F 3 "" H 8450 6150 60  0000 C CNN
-	1    8450 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH5
-U 1 1 5B74D78B
-P 8800 6150
-F 0 "TH5" H 8800 6150 60  0000 C CNN
-F 1 "HOLE" H 8800 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2_TH" H 8800 6150 60  0001 C CNN
-F 3 "" H 8800 6150 60  0000 C CNN
-	1    8800 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH6
-U 1 1 5B74D88C
-P 9150 6150
-F 0 "TH6" H 9150 6150 60  0000 C CNN
-F 1 "HOLE" H 9150 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2_TH" H 9150 6150 60  0001 C CNN
-F 3 "" H 9150 6150 60  0000 C CNN
-	1    9150 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH7
-U 1 1 5B74D98F
-P 9500 6150
-F 0 "TH7" H 9500 6150 60  0000 C CNN
-F 1 "HOLE" H 9500 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2_TH" H 9500 6150 60  0001 C CNN
-F 3 "" H 9500 6150 60  0000 C CNN
-	1    9500 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH3
-U 1 1 5B74DA95
-P 8100 6150
-F 0 "TH3" H 8100 6150 60  0000 C CNN
-F 1 "HOLE" H 8100 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2_TH" H 8100 6150 60  0001 C CNN
-F 3 "" H 8100 6150 60  0000 C CNN
-	1    8100 6150
-	1    0    0    -1  
-$EndComp
-Text GLabel 4550 5100 3    50   Input ~ 0
+Text GLabel 2450 5300 3    50   Input ~ 0
 SCL
 Connection ~ 7700 2550
 Wire Wire Line
@@ -1122,56 +1067,10 @@ F 3 "" H 3250 4150 50  0001 C CNN
 	1    3250 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 4350 3150 4350
-Wire Wire Line
-	3150 4450 3250 4450
-$Comp
-L Lily58-rescue:i2c_pin-Lily58-cache P1
-U 1 1 5B8F6780
-P 3550 4000
-F 0 "P1" H 3550 4100 50  0000 C CNN
-F 1 "i2c_pin" V 3650 4000 50  0000 C CNN
-F 2 "Lily58-footprint:1pin_conn" H 3550 4000 50  0001 C CNN
-F 3 "" H 3550 4000 50  0001 C CNN
-	1    3550 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Lily58-rescue:i2c_pin-Lily58-cache P2
-U 1 1 5B8F6980
-P 3550 4750
-F 0 "P2" H 3550 4650 50  0000 C CNN
-F 1 "i2c_pin" V 3650 4750 50  0000 C CNN
-F 2 "Lily58-footprint:1pin_conn" H 3550 4750 50  0001 C CNN
-F 3 "" H 3550 4750 50  0001 C CNN
-	1    3550 4750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3150 4550 3550 4550
-Wire Wire Line
-	3150 4200 3550 4200
-Wire Wire Line
-	3250 4150 3250 4350
-Wire Wire Line
-	3250 4450 3250 4600
-$Comp
-L Device:Jumper W1
-U 1 1 5B900157
-P 3850 4550
-F 0 "W1" H 3850 4500 50  0000 C CNN
-F 1 "jumper" H 3850 4700 50  0000 C CNN
-F 2 "Lily58-footprint:jumper_data" H 3850 4550 50  0001 C CNN
-F 3 "" H 3850 4550 50  0000 C CNN
-	1    3850 4550
-	-1   0    0    1   
-$EndComp
 Text GLabel 2550 2200 0    50   Input ~ 0
 DATA
-Text GLabel 4150 4550 2    50   Input ~ 0
+Text GLabel 3850 4250 2    50   Input ~ 0
 DATA
-Connection ~ 3550 4550
 Text Label 3850 3000 0    50   ~ 0
 MISO
 Text Label 3850 3100 0    50   ~ 0
@@ -2287,32 +2186,10 @@ F 3 "" H 3050 7200 50  0001 C CNN
 	1    3050 7200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:VCC #PWR0115
-U 1 1 61C44B56
-P 3050 7000
-F 0 "#PWR0115" H 3050 6850 50  0001 C CNN
-F 1 "VCC" V 3050 7150 50  0000 L CNN
-F 2 "" H 3050 7000 50  0001 C CNN
-F 3 "" H 3050 7000 50  0001 C CNN
-	1    3050 7000
-	0    1    1    0   
-$EndComp
 Text GLabel 3050 7400 2    50   Input ~ 0
 A2
 Text GLabel 3050 7100 2    50   Input ~ 0
 A3
-$Comp
-L power:VCC #PWR0116
-U 1 1 61C4BDD2
-P 3050 8200
-F 0 "#PWR0116" H 3050 8050 50  0001 C CNN
-F 1 "VCC" V 3050 8350 50  0000 L CNN
-F 2 "" H 3050 8200 50  0001 C CNN
-F 3 "" H 3050 8200 50  0001 C CNN
-	1    3050 8200
-	0    1    1    0   
-$EndComp
 Text GLabel 3050 8100 2    50   Input ~ 0
 A3
 Text GLabel 3050 7800 2    50   Input ~ 0
@@ -2341,14 +2218,6 @@ F 3 "" H 5300 6750 50  0001 C CNN
 $EndComp
 Text GLabel 9500 2250 1    50   Input ~ 0
 col0
-Text GLabel 3050 7300 2    50   Input ~ 0
-col0
-Text GLabel 3050 7500 2    50   Input ~ 0
-row4
-Text GLabel 3050 7900 2    50   Input ~ 0
-col0
-Text GLabel 3050 7700 2    50   Input ~ 0
-row4
 Wire Wire Line
 	2350 7400 2600 7400
 Connection ~ 2600 7400
@@ -2377,6 +2246,120 @@ F 1 "HOLE" H 7450 5550 60  0000 C CNN
 F 2 "Lily58-footprint:HOLE_M2" H 7450 5650 60  0001 C CNN
 F 3 "" H 7450 5650 60  0000 C CNN
 	1    7450 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 2700 0    50   Input ~ 0
+D4
+Wire Wire Line
+	1650 2700 1850 2700
+Text GLabel 3050 7700 2    50   Input ~ 0
+row4
+Text GLabel 3050 7900 2    50   Input ~ 0
+col0
+Text GLabel 3050 7500 2    50   Input ~ 0
+row4
+Text GLabel 3050 7300 2    50   Input ~ 0
+col0
+Text GLabel 3050 7000 2    50   Input ~ 0
+DATA
+Text GLabel 3050 8200 2    50   Input ~ 0
+DATA
+$Comp
+L Device:Jumper_NO_Small JP21
+U 1 1 61E99623
+P 3750 4250
+F 0 "JP21" H 3750 4200 50  0000 C CNN
+F 1 "1S" H 3750 4344 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 3750 4250 50  0001 C CNN
+F 3 "~" H 3750 4250 50  0001 C CNN
+	1    3750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP22
+U 1 1 61E9BC56
+P 3750 4450
+F 0 "JP22" H 3750 4400 50  0000 C CNN
+F 1 "I2C" H 3750 4544 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 3750 4450 50  0001 C CNN
+F 3 "~" H 3750 4450 50  0001 C CNN
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3350 4450 2    50   Input ~ 0
+SDA
+Text GLabel 3850 4450 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	3150 4200 3250 4200
+Wire Wire Line
+	3250 4200 3250 4150
+Wire Wire Line
+	3150 4450 3350 4450
+Wire Wire Line
+	3650 4250 3650 4350
+Wire Wire Line
+	3150 4550 3250 4550
+Wire Wire Line
+	3250 4550 3250 4600
+Wire Wire Line
+	3150 4350 3650 4350
+Connection ~ 3650 4350
+Wire Wire Line
+	3650 4350 3650 4450
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH3
+U 1 1 5B74DA95
+P 8100 6150
+F 0 "TH3" H 8100 6150 60  0000 C CNN
+F 1 "HOLE" H 8100 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2" H 8100 6150 60  0001 C CNN
+F 3 "" H 8100 6150 60  0000 C CNN
+	1    8100 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH7
+U 1 1 5B74D98F
+P 9500 6150
+F 0 "TH7" H 9500 6150 60  0000 C CNN
+F 1 "HOLE" H 9500 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2" H 9500 6150 60  0001 C CNN
+F 3 "" H 9500 6150 60  0000 C CNN
+	1    9500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH6
+U 1 1 5B74D88C
+P 9150 6150
+F 0 "TH6" H 9150 6150 60  0000 C CNN
+F 1 "HOLE" H 9150 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2" H 9150 6150 60  0001 C CNN
+F 3 "" H 9150 6150 60  0000 C CNN
+	1    9150 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH5
+U 1 1 5B74D78B
+P 8800 6150
+F 0 "TH5" H 8800 6150 60  0000 C CNN
+F 1 "HOLE" H 8800 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2" H 8800 6150 60  0001 C CNN
+F 3 "" H 8800 6150 60  0000 C CNN
+	1    8800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH4
+U 1 1 5B74D1C0
+P 8450 6150
+F 0 "TH4" H 8450 6150 60  0000 C CNN
+F 1 "HOLE" H 8450 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2" H 8450 6150 60  0001 C CNN
+F 3 "" H 8450 6150 60  0000 C CNN
+	1    8450 6150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
