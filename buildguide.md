@@ -132,11 +132,21 @@ OLEDを取り付ける場合はこの段階で取り付けます。
 - VIAを使う
 
   1. Githubにあるhexファイルとjsonファイルをダウンロード
+
   2. Pro Micro Web UpdaterもしくはQMK ToolBoxを使ってhexファイルを書き込む
      参考：
      [（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)
+     
   3. [VIA](https://github.com/the-via/releases/releases/tag/v1.3.1)もしくは[Remap](https://remap-keys.app/)を使ってキーマップを変更
      参考：[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)，[（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)
+     
+  3. ただし，jsonファイルをVIAやRemapに登録していないため，
+     
+     - VIAの場合SETTINGS→Show Design tabを有効→DESIGNタブに先ほどダウンロードしたjsonファイルをドラッグアンドドロップ
+     - Remapの場合，キーボードを選択した後の"Please import your **Lily58-X** definition file(.json)."という画面で先ほどダウンロードしたjsonファイルをドラッグアンドドロップ
+     
+     という工程を踏んでください。
+     (たくさん売れたらVIA/Remapにプルリクエストを出します。すいません...)
 
 - 自分でファームウェアをビルドする(上級者向け)
 
@@ -148,7 +158,7 @@ OLEDを取り付ける場合はこの段階で取り付けます。
   0. Bootloaderをアップデートする
      参考：
   1. Githubにあるuf2ファイルとconfigファイルをダウンロード
-  2. リセットボタン長押しでdfuを呼び出してuf2ファイルをインストール
+  2. リセットボタン長押しでdfuを呼び出してuf2ファイルを外部ストレージとして認識されたBLEPROMICROにコピーしてインストール
   3. configファイルをインストール
 - 自分でファームウェアをビルドする(かなり上級者向け)
   Github
@@ -181,13 +191,17 @@ OLEDを取り付ける場合はこの段階で取り付けます。
   | 14   | B2             | P0.10                | col4                            |
   | 15   | B3             | P1.15                | col3                            |
   | 16   | B1             | P1.14                | col2                            |
-  | 17   | F7             | P0.3                 | col1                            |
-  | 18   | F6             | P0.30                | **A2**                          |
-  | 19   | F5             | P0.0                 | **col0**                        |
-  | 20   | F4             | P0.5                 | **A3**                          |
+  | 17   | F7             | P0.3 (AIN 1)         | col1                            |
+  | 18   | F6             | P0.30 (AIN 6)        | **A6** / J2                     |
+  | 19   | F5             | P0.0                 | **col0 **/ J3                   |
+  | 20   | F4             | P0.5 (AIN3)          | **A3**                          |
   | 21   | -              | -                    | VCC/+4.3V                       |
   | 22   | -              | -                    | BOOT/RESET                      |
   | 23   | -              | -                    | GND                             |
   | 24   | -              | -                    | RAW/+5V                         |
 
   特に，BLE Pro MicroでのADCを使うためにcol0が18ピンから19ピンに移されていることに注意してください。Lily58のファームウェアなどを使う際には，ピンアサインを変更する必要があります。
+  
+  また，6ピンのピンヘッダの内訳は，左からrow4/A2/col0/GND/A3/VCCです。
+  
+  BLE Pro Microに搭載されているnrf52840にはもちろんもっと多くのADCポートがありますが，現状使えるのは17,18,20ピンのみのようです。
