@@ -2188,9 +2188,9 @@ F 3 "" H 3050 7200 50  0001 C CNN
 $EndComp
 Text GLabel 3050 7400 2    50   Input ~ 0
 A2
-Text GLabel 3050 7100 2    50   Input ~ 0
+Text GLabel 3050 7300 2    50   Input ~ 0
 A3
-Text GLabel 3050 8100 2    50   Input ~ 0
+Text GLabel 3050 7900 2    50   Input ~ 0
 A3
 Text GLabel 3050 7800 2    50   Input ~ 0
 A2
@@ -2254,11 +2254,11 @@ Wire Wire Line
 	1650 2700 1850 2700
 Text GLabel 3050 7700 2    50   Input ~ 0
 row4
-Text GLabel 3050 7900 2    50   Input ~ 0
+Text GLabel 3050 8100 2    50   Input ~ 0
 col0
 Text GLabel 3050 7500 2    50   Input ~ 0
 row4
-Text GLabel 3050 7300 2    50   Input ~ 0
+Text GLabel 3050 7100 2    50   Input ~ 0
 col0
 Text GLabel 3050 7000 2    50   Input ~ 0
 DATA
