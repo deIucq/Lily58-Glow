@@ -1299,12 +1299,8 @@ Wire Wire Line
 	7700 9650 7900 9650
 Wire Wire Line
 	6900 9650 7100 9650
-Wire Wire Line
-	7400 9950 8200 9950
 Connection ~ 7400 9950
 Connection ~ 6600 9950
-Wire Wire Line
-	6600 9950 7400 9950
 $Comp
 L LED:SK6812MINI L28
 U 1 1 5D44C2D1
@@ -1328,7 +1324,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 9950 5800 9950
+	6600 9950 6200 9950
 Wire Wire Line
 	6100 9650 6300 9650
 $Comp
@@ -1893,8 +1889,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 $EndComp
 Wire Wire Line
 	8500 9650 8700 9650
-Wire Wire Line
-	8200 9950 9000 9950
 Connection ~ 8200 9950
 Wire Wire Line
 	5300 9350 5800 9350
@@ -2092,7 +2086,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 8000 2650 8000
 Wire Wire Line
-	5300 9950 5800 9950
+	5300 9950 5600 9950
 Wire Wire Line
 	2350 7000 2800 7000
 Wire Wire Line
@@ -2308,140 +2302,64 @@ Connection ~ 3650 4350
 Wire Wire Line
 	3650 4350 3650 4450
 $Comp
-L Lily58-rescue:HOLE-Lily58-cache TH3
-U 1 1 5B74DA95
-P 8100 6150
-F 0 "TH3" H 8100 6150 60  0000 C CNN
-F 1 "HOLE" H 8100 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2" H 8100 6150 60  0001 C CNN
-F 3 "" H 8100 6150 60  0000 C CNN
-	1    8100 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH7
-U 1 1 5B74D98F
-P 9500 6150
-F 0 "TH7" H 9500 6150 60  0000 C CNN
-F 1 "HOLE" H 9500 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2" H 9500 6150 60  0001 C CNN
-F 3 "" H 9500 6150 60  0000 C CNN
-	1    9500 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH6
-U 1 1 5B74D88C
-P 9150 6150
-F 0 "TH6" H 9150 6150 60  0000 C CNN
-F 1 "HOLE" H 9150 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2" H 9150 6150 60  0001 C CNN
-F 3 "" H 9150 6150 60  0000 C CNN
-	1    9150 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH5
-U 1 1 5B74D78B
-P 8800 6150
-F 0 "TH5" H 8800 6150 60  0000 C CNN
-F 1 "HOLE" H 8800 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2" H 8800 6150 60  0001 C CNN
-F 3 "" H 8800 6150 60  0000 C CNN
-	1    8800 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lily58-rescue:HOLE-Lily58-cache TH4
-U 1 1 5B74D1C0
-P 8450 6150
-F 0 "TH4" H 8450 6150 60  0000 C CNN
-F 1 "HOLE" H 8450 6050 60  0000 C CNN
-F 2 "Lily58-footprint:HOLE_M2" H 8450 6150 60  0001 C CNN
-F 3 "" H 8450 6150 60  0000 C CNN
-	1    8450 6150
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED:SK6812MINI D35
 U 1 1 6240B7F0
-P 8200 10250
-F 0 "D35" H 7856 10204 50  0000 R CNN
-F 1 "SK6812MINI" H 7856 10295 50  0000 R CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 8250 9950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8300 9875 50  0001 L TNN
-	1    8200 10250
+P 8000 10250
+F 0 "D35" H 7656 10204 50  0000 R CNN
+F 1 "SK6812MINI" H 7656 10295 50  0000 R CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 8050 9950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8100 9875 50  0001 L TNN
+	1    8000 10250
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED:SK6812MINI D34
 U 1 1 62411127
+P 8600 10250
+F 0 "D34" H 8944 10296 50  0000 L CNN
+F 1 "SK6812MINI" H 8944 10205 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 8650 9950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8700 9875 50  0001 L TNN
+	1    8600 10250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI D33
+U 1 1 62423173
+P 9200 10250
+F 0 "D33" H 9544 10296 50  0000 L CNN
+F 1 "SK6812MINI" H 9544 10205 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 9250 9950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9300 9875 50  0001 L TNN
+	1    9200 10250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI D32
+U 1 1 6245421A
+P 9800 10250
+F 0 "D32" H 10144 10296 50  0000 L CNN
+F 1 "SK6812MINI" H 10144 10205 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 9850 9950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9900 9875 50  0001 L TNN
+	1    9800 10250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812MINI D36
+U 1 1 624C4CC2
 P 7400 10250
-F 0 "D34" H 7744 10296 50  0000 L CNN
+F 0 "D36" H 7744 10296 50  0000 L CNN
 F 1 "SK6812MINI" H 7744 10205 50  0000 L CNN
 F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 7450 9950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7500 9875 50  0001 L TNN
 	1    7400 10250
 	-1   0    0    1   
 $EndComp
-$Comp
-L LED:SK6812MINI D33
-U 1 1 62423173
-P 6600 10250
-F 0 "D33" H 6944 10296 50  0000 L CNN
-F 1 "SK6812MINI" H 6944 10205 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 6650 9950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6700 9875 50  0001 L TNN
-	1    6600 10250
-	-1   0    0    1   
-$EndComp
-Connection ~ 9000 9950
-$Comp
-L LED:SK6812MINI D32
-U 1 1 6245421A
-P 5800 10250
-F 0 "D32" H 6144 10296 50  0000 L CNN
-F 1 "SK6812MINI" H 6144 10205 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 5850 9950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5900 9875 50  0001 L TNN
-	1    5800 10250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6100 10250 6300 10250
-Wire Wire Line
-	7100 10250 6900 10250
-Wire Wire Line
-	7700 10250 7900 10250
-$Comp
-L LED:SK6812MINI D36
-U 1 1 624C4CC2
-P 9000 10250
-F 0 "D36" H 9344 10296 50  0000 L CNN
-F 1 "SK6812MINI" H 9344 10205 50  0000 L CNN
-F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 9050 9950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9100 9875 50  0001 L TNN
-	1    9000 10250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8500 10250 8700 10250
 Wire Wire Line
 	9300 9650 10100 9650
 Wire Wire Line
 	10100 9650 10100 10250
-Wire Wire Line
-	9800 10550 9000 10550
-Connection ~ 6600 10550
-Connection ~ 7400 10550
-Wire Wire Line
-	7400 10550 6600 10550
-Connection ~ 8200 10550
-Wire Wire Line
-	8200 10550 7400 10550
-Connection ~ 9000 10550
-Wire Wire Line
-	9000 10550 8200 10550
 $Comp
 L power:VCC #PWR0115
 U 1 1 62526079
@@ -2453,11 +2371,142 @@ F 3 "" H 5300 10550 50  0001 C CNN
 	1    5300 10550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH4
+U 1 1 5B74D1C0
+P 8450 6150
+F 0 "TH4" H 8450 6150 60  0000 C CNN
+F 1 "HOLE" H 8450 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2_TH" H 8450 6150 60  0001 C CNN
+F 3 "" H 8450 6150 60  0000 C CNN
+	1    8450 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH5
+U 1 1 5B74D78B
+P 8800 6150
+F 0 "TH5" H 8800 6150 60  0000 C CNN
+F 1 "HOLE" H 8800 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2_TH" H 8800 6150 60  0001 C CNN
+F 3 "" H 8800 6150 60  0000 C CNN
+	1    8800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH6
+U 1 1 5B74D88C
+P 9150 6150
+F 0 "TH6" H 9150 6150 60  0000 C CNN
+F 1 "HOLE" H 9150 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2_TH" H 9150 6150 60  0001 C CNN
+F 3 "" H 9150 6150 60  0000 C CNN
+	1    9150 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH7
+U 1 1 5B74D98F
+P 9500 6150
+F 0 "TH7" H 9500 6150 60  0000 C CNN
+F 1 "HOLE" H 9500 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2_TH" H 9500 6150 60  0001 C CNN
+F 3 "" H 9500 6150 60  0000 C CNN
+	1    9500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache TH3
+U 1 1 5B74DA95
+P 8100 6150
+F 0 "TH3" H 8100 6150 60  0000 C CNN
+F 1 "HOLE" H 8100 6050 60  0000 C CNN
+F 2 "Lily58-footprint:HOLE_M2_TH" H 8100 6150 60  0001 C CNN
+F 3 "" H 8100 6150 60  0000 C CNN
+	1    8100 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 10550
+Connection ~ 8000 9950
 Wire Wire Line
-	5300 10550 5800 10550
-Connection ~ 5800 10550
+	8000 9950 8200 9950
+Connection ~ 8000 10550
+Connection ~ 8600 9950
 Wire Wire Line
-	5800 10550 6600 10550
+	8600 9950 9000 9950
+Connection ~ 8600 10550
 Wire Wire Line
-	9300 10250 10100 10250
+	7400 9950 8000 9950
+Wire Wire Line
+	6600 9950 6800 9950
+Wire Wire Line
+	8200 9950 8600 9950
+Wire Wire Line
+	5300 10550 5600 10550
+Wire Wire Line
+	7400 10550 8000 10550
+Wire Wire Line
+	8000 10550 8600 10550
+Wire Wire Line
+	8600 10550 9200 10550
+Connection ~ 9200 10550
+Wire Wire Line
+	9200 10550 9800 10550
+Wire Wire Line
+	9800 9950 9200 9950
+Connection ~ 9000 9950
+Connection ~ 9200 9950
+Wire Wire Line
+	9200 9950 9000 9950
+$Comp
+L LED:SK6812MINI D38
+U 1 1 61D96A0F
+P 6800 10250
+F 0 "D38" H 7144 10296 50  0000 L CNN
+F 1 "SK6812MINI" H 7144 10205 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 6850 9950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6900 9875 50  0001 L TNN
+	1    6800 10250
+	-1   0    0    1   
+$EndComp
+Connection ~ 6800 9950
+Wire Wire Line
+	6800 9950 7400 9950
+Connection ~ 6800 10550
+Wire Wire Line
+	6800 10550 7400 10550
+$Comp
+L LED:SK6812MINI D37
+U 1 1 61D98064
+P 6200 10250
+F 0 "D37" H 6544 10296 50  0000 L CNN
+F 1 "SK6812MINI" H 6544 10205 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 6250 9950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6300 9875 50  0001 L TNN
+	1    6200 10250
+	-1   0    0    1   
+$EndComp
+Connection ~ 6200 9950
+Wire Wire Line
+	6200 9950 5800 9950
+Connection ~ 6200 10550
+Wire Wire Line
+	6200 10550 6800 10550
+$Comp
+L LED:SK6812MINI D30
+U 1 1 61D997AB
+P 5600 10250
+F 0 "D30" H 5944 10296 50  0000 L CNN
+F 1 "SK6812MINI" H 5944 10205 50  0000 L CNN
+F 2 "Lily58-footprint:SK6812MINI_underglow_rev" H 5650 9950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5700 9875 50  0001 L TNN
+	1    5600 10250
+	-1   0    0    1   
+$EndComp
+Connection ~ 5600 9950
+Wire Wire Line
+	5600 9950 5800 9950
+Connection ~ 5600 10550
+Wire Wire Line
+	5600 10550 6200 10550
 $EndSCHEMATC
